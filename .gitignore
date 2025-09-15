@@ -5,3 +5,5 @@ ipynb_checkpoints/
 env/
 venv/
 .ipynb_checkpoints/
+.obsidian/
+dados_originais/
