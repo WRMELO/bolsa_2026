@@ -1,0 +1,6 @@
+run_id: run_stable_20250915_152222
+origin: run_fixed_20250915_121821
+promoted_at: 2025-09-15 15:27:00 
+promoted_by: wrm@zen
+manifest_source: /home/wrm/BOLSA_2026/intermediarios/silver/run_stable_20250915_152222/manifesto_silver_fixed.csv
+note: promoted after validation; original run archived in intermediarios/silver/runs_archive
