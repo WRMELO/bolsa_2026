@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/planos/Plano Mestre – Identificação de Tendências (D+1, D+3, D+5).md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Plano Mestre – Identificação de Tendências (D+1, D+3, D+5)"
             }
           }
         ]
@@ -169,22 +169,23 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "025e82fd391dd87a",
+  "active": "c9c977852cd7955b",
   "lastOpenFiles": [
+    "intermediarios/silver/run_fixed_20250915_121821/report_parquet_validation_20250915_122140.csv",
+    "README.md",
+    "intermediarios/silver/run_fixed_20250915_121821/manifesto_silver_fixed.csv",
+    "intermediarios/silver/run_fixed_20250915_121821/BVSP_silver.parquet",
+    "intermediarios/silver/run_fixed_20250915_121821/WEGE3_SA_silver.parquet",
+    "intermediarios/silver/run_fixed_20250915_121821/VIVT3_SA_silver.parquet",
+    "intermediarios/silver/run_fixed_20250915_121821/VALE3_SA_silver.parquet",
+    "intermediarios/silver/run_fixed_20250915_121821/UGPA3_SA_silver.parquet",
+    "intermediarios/silver/run_fixed_20250915_121821/TOTS3_SA_silver.parquet",
+    "intermediarios/silver/run_fixed_20250915_121821/TIMS3_SA_silver.parquet",
+    "intermediarios/silver/run_fixed_20250915_121821/TAEE11_SA_silver.parquet",
+    "intermediarios/silver/run_fixed_20250915_121821/SUZB3_SA_silver.parquet",
     "docs/protocolo/PROTOCOLO_GPT5_MODO_DUAL_V1.2_2025-09-12.md",
-    "docs/protocolo",
     "z_desenvolvimento_abandonado/MANIFESTOS.md",
     "docs/planos/Plano Mestre – Identificação de Tendências (D+1, D+3, D+5).md",
-    "setup",
-    "docs/planos",
-    "docs",
-    "dados_originais/runs/20250915T141740Z/originals.tar.tar.gz",
-    "dados_originais/runs/20250915T141740Z/originals/manifesto_dados_originais_3y.csv",
-    "dados_originais/runs/20250915T141740Z/originals/WEGE3_SA_3y.parquet",
-    "dados_originais/runs/20250915T141740Z/originals/VIVT3_SA_3y.parquet",
-    "dados_originais/runs/20250915T141740Z/originals/VALE3_SA_3y.parquet",
-    "dados_originais/runs/20250915T141740Z/originals/UGPA3_SA_3y.parquet",
-    "README.md",
     "checkpoint para 14_09.md",
     "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO/esquema de trabalho dos computadores.md",
     "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO/Relatório do Pipeline de Dados.md",
@@ -206,7 +207,6 @@
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/DUVIDA EXISTENCIAL.md",
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/DESENVOLVIMENTO  - ÍNDICE.md",
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/Análise Estrutural do Notebook LSTM_PETR4.ipynb.md",
-    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/A REFLEXÃO REPRESENTATIVA.md",
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/imagens/Editor _ Mermaid Chart-2025-06-27-165741.svg",
     "des._abandonado/0-DOCUMENTAÇÃO ANTERIOR/imagens/Editor _ Mermaid Chart-2025-06-27-165741.svg",
     "0-DOCUMENTAÇÃO ANTERIOR/imagens/Editor _ Mermaid Chart-2025-06-27-165741.svg"
