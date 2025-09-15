@@ -3,9 +3,6 @@
 Este repositório contém arquivos para criar um ambiente Python local focado em ciência de dados, visualização e dados financeiros.
 
 Passos rápidos:
-# Ambiente virtual para análise financeira
-
-Este repositório contém arquivos para criar um ambiente Python local focado em ciência de dados, visualização e dados financeiros.
 
 Quick setup
 
