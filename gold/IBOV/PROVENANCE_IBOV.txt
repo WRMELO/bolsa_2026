@@ -1,0 +1,5 @@
+gold_source: /home/wrm/BOLSA_2026/intermediarios/silver/run_stable_20250915_152222
+ibov_source_file: /home/wrm/BOLSA_2026/intermediarios/silver/run_fixed_20250915_121821/BVSP_silver.parquet
+built_at: 2025-09-15T15:40:23.382437
+label_targets: D+1 45–55%, D+3 38–45%, D+5 30–38%
+sigma_window: 15
