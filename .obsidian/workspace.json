@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "814e925e66b10ee7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c96c849bb89f73e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9c977852cd7955b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nova aba"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a7cf179335911731",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba662ad5681365dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "025e82fd391dd87a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "890ea05dc1524dd9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "5b7395245e12da0e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 211.5
+  },
+  "right": {
+    "id": "d9ceb7b6fe124621",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7ffdfaeef0dea8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "082f4b042e7d17fd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/historico_chats/CHAT2 11.09.2025.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para CHAT2 11.09.2025"
+            }
+          },
+          {
+            "id": "d5bf4fa016c5918c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/historico_chats/CHAT2 11.09.2025.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para CHAT2 11.09.2025"
+            }
+          },
+          {
+            "id": "b72aeb94d3ce91a0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0e00666c6efa8a98",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/historico_chats/CHAT2 11.09.2025.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de CHAT2 11.09.2025"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "025e82fd391dd87a",
+  "lastOpenFiles": [
+    "requirements-finance.txt",
+    "requirements-core.txt",
+    "notebooks/01-setup.ipynb",
+    "notebooks",
+    "README.md",
+    "scripts/setup_venv.sh",
+    "scripts",
+    "requirements.txt",
+    "checkpoint para 14_09.md",
+    "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO/esquema de trabalho dos computadores.md",
+    "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO/Relatório do Pipeline de Dados.md",
+    "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO/Plano para obtenção do LTMS.md",
+    "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO/MODELO GLOBAL VS INDIVIDUAL.md",
+    "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO/CRITÉRIOS PARA PARTILHAMENTO TREINO - VALIDAÇÃO - TESTE.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Reflexões/Reflexão o4-mini.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Reflexões/Reflexão o3.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Reflexões/Reflexão ONE Pro.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Reflexões/Reflexão DeepSeekR1.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Reflexões/Reflexão Claude 4 Opus.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Reflexões/Prompt para reflexão.pdf",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Reflexões/Prompt para reflexão.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Protocolo/PROTOCOLO_LLM_UNIVERSAL_v5.2.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Protocolo/PROTOCOLO_LLM_UNIVERSAL.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/STORYTELLING PROJETO B3.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/Plano Estratégico Projeto_B3.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/PLANO DE ALTO NIVEL PARA O PROJETO B3.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/Métricas de Sucesso — Padrão Operacional.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/DUVIDA EXISTENCIAL.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/DESENVOLVIMENTO  - ÍNDICE.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/Análise Estrutural do Notebook LSTM_PETR4.ipynb.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/A REFLEXÃO REPRESENTATIVA.md",
+    "z_desenvolvimento_abandonado/docs/uso geral/PROTOCOLO_GPT5_MODO_DUAL_V1.2_2025-09-12.md",
+    "z_desenvolvimento_abandonado/docs/uso geral/Dicionário de Siglas, Equações e Significados.md",
+    "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/imagens/Editor _ Mermaid Chart-2025-06-27-165741.svg",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Reflexões",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Protocolo",
+    "des._abandonado/0-DOCUMENTAÇÃO ANTERIOR/imagens/Editor _ Mermaid Chart-2025-06-27-165741.svg",
+    "0-DOCUMENTAÇÃO ANTERIOR/imagens/Editor _ Mermaid Chart-2025-06-27-165741.svg"
+  ]
+}

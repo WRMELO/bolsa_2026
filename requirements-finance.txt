@@ -1,0 +1,9 @@
+# Financial and market data (optional)
+yfinance>=0.2.25
+ccxt>=4.5.4
+openbb>=0.4.0
+
+# Time series / models (optional heavy frameworks)
+prophet>=1.1
+# torch>=2.2.1
+# tensorflow>=2.13.5
