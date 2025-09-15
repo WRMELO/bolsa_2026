@@ -3,23 +3,28 @@
 Este repositório contém arquivos para criar um ambiente Python local focado em ciência de dados, visualização e dados financeiros.
 
 Passos rápidos:
+# Ambiente virtual para análise financeira
 
-1. Crie o venv e instale dependências core (recomendado):
+Este repositório contém arquivos para criar um ambiente Python local focado em ciência de dados, visualização e dados financeiros.
 
-   ./scripts/setup_venv.sh .venv
+Quick setup
 
-2. (Opcional) Instale dependências financeiras separadamente — útil quando bibliotecas como `yfinance` exigem compilações nativas:
+1. Create a virtualenv (example name `.venv`):
 
-   ./scripts/setup_venv.sh .venv --finance
+   python -m venv .venv
 
-2. Ative o ambiente:
+2. Activate and install core requirements:
 
    source .venv/bin/activate
+   python -m pip install --upgrade pip
+   pip install -r requirements-core.txt
 
-3. Abra o projeto no VS Code. O workspace recomenda usar `.venv` como interpretador.
+3. To install the finance stack as well:
 
-4. Abra `notebooks/01-setup.ipynb` para um teste inicial.
+   pip install -r requirements-finance.txt
 
-Observações:
-- O script registra um kernel Jupyter com o nome do venv.
-- Se preferir conda, adapte o script.
+4. Or install everything:
+
+   pip install -r requirements-full.txt
+
+Note: `pyarrow` is pinned and may already be installed as a wheel; building from source requires system deps (cmake, liblz4-dev, libzstd-dev, etc.) — consider using conda if you need to build from source.
