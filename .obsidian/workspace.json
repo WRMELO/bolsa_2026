@@ -171,6 +171,8 @@
   },
   "active": "025e82fd391dd87a",
   "lastOpenFiles": [
+    "intermediarios/gold/run_20250917_141157",
+    "intermediarios/gold",
     "docs",
     "docs/Create Silver from Bronze (Instrução 02).md",
     "intermediarios/silver/run_20250917_140001/IBOV_silver.parquet",
@@ -181,8 +183,6 @@
     "intermediarios/silver",
     "scripts/create_silver_from_bronze.py",
     "intermediarios/manifesto_silver.csv",
-    "intermediarios/IBOV_silver_2013-08-19_2025-09-17.parquet",
-    "intermediarios",
     "Decisão de Arquitetura — Remoção da “Dupla Zona Neutra” no Pipeline XGBoost.md",
     "0-DOCUMENTAÇÃO ANTERIOR/Decisão de Arquitetura — Remoção da “Dupla Zona Neutra” no Pipeline XGBoost.md",
     "Critica ao momento 17.09.2025.md",
