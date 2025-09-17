@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c9c977852cd7955b",
+            "id": "09a474c75bd49e72",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 321.5
   },
   "right": {
     "id": "d9ceb7b6fe124621",
@@ -165,23 +165,14 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "025e82fd391dd87a",
+  "active": "09a474c75bd49e72",
   "lastOpenFiles": [
-    "requirements-full.txt",
-    "requirements-finance.txt",
-    "requirements-core.txt",
-    "notebooks/01-setup.ipynb",
-    "notebooks",
-    "README.md",
-    "scripts/setup_venv.sh",
-    "scripts",
-    "requirements.txt",
-    "checkpoint para 14_09.md",
+    "docs/Create Silver from Bronze (Instrução 02).md",
     "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO/esquema de trabalho dos computadores.md",
     "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO/Relatório do Pipeline de Dados.md",
+    "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO/CRITÉRIOS PARA PARTILHAMENTO TREINO - VALIDAÇÃO - TESTE.md",
     "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO/Plano para obtenção do LTMS.md",
     "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO/MODELO GLOBAL VS INDIVIDUAL.md",
-    "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO/CRITÉRIOS PARA PARTILHAMENTO TREINO - VALIDAÇÃO - TESTE.md",
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Reflexões/Reflexão o4-mini.md",
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Reflexões/Reflexão o3.md",
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Reflexões/Reflexão ONE Pro.md",
@@ -195,16 +186,32 @@
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/Plano Estratégico Projeto_B3.md",
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/PLANO DE ALTO NIVEL PARA O PROJETO B3.md",
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/Métricas de Sucesso — Padrão Operacional.md",
-    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/DUVIDA EXISTENCIAL.md",
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/DESENVOLVIMENTO  - ÍNDICE.md",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/DUVIDA EXISTENCIAL.md",
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/Análise Estrutural do Notebook LSTM_PETR4.ipynb.md",
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/A REFLEXÃO REPRESENTATIVA.md",
     "z_desenvolvimento_abandonado/docs/uso geral/PROTOCOLO_GPT5_MODO_DUAL_V1.2_2025-09-12.md",
     "z_desenvolvimento_abandonado/docs/uso geral/Dicionário de Siglas, Equações e Significados.md",
+    "z_desenvolvimento_abandonado/docs/questões GPT 5/11.09.2025 16h40.md",
+    "z_desenvolvimento_abandonado/docs/questões GPT 5/09.09.2025 - 15h30.md",
     "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO",
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/imagens/Editor _ Mermaid Chart-2025-06-27-165741.svg",
     "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Reflexões",
-    "des._abandonado/0-DOCUMENTAÇÃO ANTERIOR/imagens/Editor _ Mermaid Chart-2025-06-27-165741.svg",
-    "0-DOCUMENTAÇÃO ANTERIOR/imagens/Editor _ Mermaid Chart-2025-06-27-165741.svg"
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Protocolo",
+    "z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento",
+    "z_desenvolvimento_abandonado/docs/uso geral",
+    "z_desenvolvimento_abandonado/docs/questões GPT 5",
+    "z_desenvolvimento_abandonado/docs/planos",
+    "z_desenvolvimento_abandonado/docs/historico_chats",
+    "z_desenvolvimento_abandonado/docs/fase0.3 - LSTM",
+    "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/imagens/Editor _ Mermaid Chart-2025-06-27-165741.svg",
+    "0-DOCUMENTAÇÃO ANTERIOR/gold/IBOV/calibration_optA_d5_block5.png",
+    "0-DOCUMENTAÇÃO ANTERIOR/gold/IBOV/calibration_optA_d5_block4.png",
+    "0-DOCUMENTAÇÃO ANTERIOR/gold/IBOV/calibration_optA_d5_block3.png",
+    "0-DOCUMENTAÇÃO ANTERIOR/gold/IBOV/calibration_optA_d5_block2.png",
+    "0-DOCUMENTAÇÃO ANTERIOR/gold/IBOV/calibration_optA_d3_block5.png",
+    "0-DOCUMENTAÇÃO ANTERIOR/gold/IBOV/calibration_optA_d3_block4.png",
+    "0-DOCUMENTAÇÃO ANTERIOR/gold/IBOV/calibration_optA_d3_block3.png",
+    "0-DOCUMENTAÇÃO ANTERIOR/gold/IBOV/calibration_optA_d3_block2.png"
   ]
 }
