@@ -1,0 +1,2 @@
+file,ticker,date_min,date_max,rows,source,sha256
+IBOV_2013-08-18_2025-09-17.parquet,^BVSP,2013-08-19T00:00:00,2025-09-17T00:00:00,2996,yfinance,c18ab2ee0d4ffbc4e969bcfc79fa2c31445c739096ea75a1e3a4968b038eaafa
