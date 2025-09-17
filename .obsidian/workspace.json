@@ -11,10 +11,14 @@
             "id": "09a474c75bd49e72",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/Create Silver from Bronze (Instrução 02).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Create Silver from Bronze (Instrução 02)"
             }
           }
         ]
@@ -165,8 +169,13 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "09a474c75bd49e72",
+  "active": "025e82fd391dd87a",
   "lastOpenFiles": [
+    "docs",
+    "docs/Create Silver from Bronze (Instrução 02).md",
+    "intermediarios/silver/run_20250917_140001/IBOV_silver.parquet",
+    "intermediarios/silver/run_20250917_140001",
+    "__pycache__",
     "intermediarios/silver/run_20250917_114743/IBOV_silver.parquet",
     "intermediarios/silver/run_20250917_114743",
     "intermediarios/silver",
@@ -174,10 +183,6 @@
     "intermediarios/manifesto_silver.csv",
     "intermediarios/IBOV_silver_2013-08-19_2025-09-17.parquet",
     "intermediarios",
-    "notebooks/ingesta_executed.ipynb",
-    "notebooks/xgboost.ipynb",
-    "scripts/inspect_bronze_parquet.py",
-    "dados_originais/manifesto_dados_originais_bronze_ibov.csv",
     "Decisão de Arquitetura — Remoção da “Dupla Zona Neutra” no Pipeline XGBoost.md",
     "0-DOCUMENTAÇÃO ANTERIOR/Decisão de Arquitetura — Remoção da “Dupla Zona Neutra” no Pipeline XGBoost.md",
     "Critica ao momento 17.09.2025.md",
@@ -202,7 +207,6 @@
     "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/Análise Estrutural do Notebook LSTM_PETR4.ipynb.md",
     "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Desenvolvimento/A REFLEXÃO REPRESENTATIVA.md",
     "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Protocolo/PROTOCOLO_LLM_UNIVERSAL_v5.2.md",
-    "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/docs/Protocolo/PROTOCOLO_LLM_UNIVERSAL.md",
     "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/imagens/Editor _ Mermaid Chart-2025-06-27-165741.svg",
     "0-DOCUMENTAÇÃO ANTERIOR/gold/IBOV/calibration_optA_d5_block5.png",
     "0-DOCUMENTAÇÃO ANTERIOR/gold/IBOV/calibration_optA_d5_block4.png",
