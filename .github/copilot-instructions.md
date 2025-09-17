@@ -52,3 +52,21 @@
 	- Preserve the delivery-format rules and the Strategist/Agent role separation. Merge any local additions (e.g., calibration bands) only after confirming with the strategist.
 
 Refer to `README.md` for architecture, goals and acceptance criteria.
+
+Roles & Protocol: igual ao já combinado (estrategista ↔ agente; agente só entrega código Python de célula Jupyter no chat).
+
+Schema oficial:
+
+Bronze/Silver: ['date','open','high','low','close','volume','ticker'] (sem adj_close).
+
+Gold: herda Silver + labels label_d1,label_d3,label_d5 e colunas auxiliares (logret,sigma_rolling) sempre baseadas em close.
+
+Cálculos:
+
+logret_t = log( close_t / close_(t-1) )
+
+σ = std móvel de logret (janela 252).
+
+Labels (k·σ) em D+1/D+3/D+5 sobre close.
+
+Dry run por padrão em toda célula que persista artefatos.
