@@ -171,6 +171,8 @@
   },
   "active": "025e82fd391dd87a",
   "lastOpenFiles": [
+    "intermediarios/gold/run_20250917_150857/IBOV_gold.parquet",
+    "intermediarios/gold/run_20250917_150857",
     "intermediarios/gold/manifesto_gold_ibov.csv",
     "intermediarios/gold/run_20250917_145651/IBOV_gold.parquet",
     "intermediarios/gold/run_20250917_145651",
@@ -180,8 +182,6 @@
     "intermediarios/silver/run_20250917_144039/IBOV_silver.parquet",
     "intermediarios/silver/run_20250917_144039",
     "intermediarios/gold/run_20250917_141157",
-    "intermediarios/gold",
-    "docs",
     "docs/Create Silver from Bronze (Instrução 02).md",
     "Decisão de Arquitetura — Remoção da “Dupla Zona Neutra” no Pipeline XGBoost.md",
     "0-DOCUMENTAÇÃO ANTERIOR/Decisão de Arquitetura — Remoção da “Dupla Zona Neutra” no Pipeline XGBoost.md",
