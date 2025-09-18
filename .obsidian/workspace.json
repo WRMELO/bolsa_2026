@@ -11,10 +11,14 @@
             "id": "09a474c75bd49e72",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "0-DOCUMENTAÇÃO ANTERIOR/docs/planos/Plano Mestre – Identificação de Tendências (D+1, D+3, D+5).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Plano Mestre – Identificação de Tendências (D+1, D+3, D+5)"
             }
           }
         ]
@@ -165,8 +169,18 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "025e82fd391dd87a",
+  "active": "09a474c75bd49e72",
   "lastOpenFiles": [
+    "0-DOCUMENTAÇÃO ANTERIOR/docs/ARTIFACTS_FOR_ALLM.md",
+    "0-DOCUMENTAÇÃO ANTERIOR/Critica ao momento 17.09.2025.md",
+    "0-DOCUMENTAÇÃO ANTERIOR/Decisão de Arquitetura — Remoção da “Dupla Zona Neutra” no Pipeline XGBoost.md",
+    "0-DOCUMENTAÇÃO ANTERIOR/PROTOCOLO PERMANENTE — RELAÇÃO ESTRATEGISTA ↔ AGENTE.md",
+    "docs/PROTOCOLO DE INSTRUÇÕES E ENTREGA.md",
+    "docs/PROTOCOLO DE GOVERNANÇA E CONTINUIDADE.md",
+    "PROTOCOLO PERMANENTE DE RELACIONAMENTO — OWNER ↔ ESTRATEGISTA ↔ AGENTE.md",
+    "MANUAL DE APLICAÇÃO PRÁTICA — PROTOCOLO PERMANENTE.md",
+    "docs",
+    "docs/PROTOCOLO DE PAPÉIS E RESPONSABILIDADES.md",
     "dados_originais/IBOV_2012-01-03_2025-09-17__20250917_223106.parquet",
     "dados_originais/IBOV_2012-01-03_2025-09-17_20250917_222508.parquet",
     "dados_originais/manifesto_dados_originais_bronze_ibov.csv",
@@ -177,8 +191,6 @@
     "0-DOCUMENTAÇÃO ANTERIOR/notebooks1/01-ibov_pipeline_bronze.ipynb",
     "0-DOCUMENTAÇÃO ANTERIOR/notebooks1",
     "0-DOCUMENTAÇÃO ANTERIOR/docs1/Create Silver from Bronze (Instrução 02).md",
-    "0-DOCUMENTAÇÃO ANTERIOR/docs1",
-    "notebooks1/01-ibov_pipeline_bronze.ipynb",
     "docs1/Create Silver from Bronze (Instrução 02).md",
     "docs/Create Silver from Bronze (Instrução 02).md",
     "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/docs/fase0.3 - LSTM/FURADO/esquema de trabalho dos computadores.md",
@@ -195,14 +207,6 @@
     "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/docs/historico_chats/CHAT3 - 250912.md",
     "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/docs/historico_chats/CHAT2 11.09.2025.md",
     "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/docs/historico_chats/CHAT1 - 09.09.25.md",
-    "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/docs/planos/MASTER PLAN v2 — Prediction-First + RL.md",
-    "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/docs/planos/F0 — Plano Setorial Detalhado.md",
-    "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/docs/planos/Checklist – Processo Paralelo LSTM Multiativo.md",
-    "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/docs/decisoes/Decisões Consolidadas — Projeto B3 (Master Plan GPT-5 v1).md",
-    "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/docs/decisoes/1ª GRANDE MUDANÇA DE CONCEITO.md",
-    "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/docs/fase0/SEED LIST - 20 TICKERS.md",
-    "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/docs/fase0/Metodologia LSTM já desenvolvida (Baseline).md",
-    "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/docs/fase0/Fundamentos e Regras — v2 (final).md",
     "0-DOCUMENTAÇÃO ANTERIOR/z_desenvolvimento_abandonado/0-DOCUMENTAÇÃO ANTERIOR/imagens/Editor _ Mermaid Chart-2025-06-27-165741.svg",
     "0-DOCUMENTAÇÃO ANTERIOR/gold/IBOV/calibration_optA_d5_block5.png",
     "0-DOCUMENTAÇÃO ANTERIOR/gold/IBOV/calibration_optA_d5_block4.png",

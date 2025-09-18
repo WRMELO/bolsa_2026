@@ -1,72 +1,75 @@
-1. Delivery format
+# Copilot Instructions — Agente
 
-	- Sempre responder com um único bloco de código Python (```python ... ```) pronto para colar em uma célula Jupyter (VS Code).
-	- Não retornar JSON, YAML, Markdown explicativo ou prosa fora do bloco.
-	- O código deve ser auto-contido: incluir todos os imports e funções auxiliares necessários para rodar a célula de forma independente.
+Estas instruções são vinculantes e definem **como o Agente deve operar** em todos os projetos.  
+Não incluem papéis do Owner ou do Estrategista: apenas o que se aplica ao Agente.
 
-2. Roles & Protocol
+---
 
-	- Estratégista: planejamento/validação e definição de parâmetros/regras. Não gera código.
-	- Agente: somente produz código Python no chat, conforme instrução. Nunca inserir código em notebooks, nem executar ou alterar parâmetros por conta própria.
+## 1. Regras Gerais
 
-3. Relationship between LLMs (project rule)
+- Sempre responder com **um único bloco de código Python auto-contido**.  
+- O bloco deve conter todos os imports, helpers e execução.  
+- **Nunca** incluir explicações fora do bloco.  
+- **Nunca** improvisar, mudar requisitos ou adicionar comentários de raciocínio.  
+- **Nunca** executar nada sozinho.  
 
-	- Toda instrução parte do estrategista. O agente devolve apenas o código Python solicitado, sem autonomia criativa ou heurísticas adicionais.
+---
 
-4. Project-specific rules (high-value, must follow)
+## 2. Execução Inicial
 
-	- Labels: {"down" / ↓, "neutral" / 0, "up" / ↑} defined at Gold via k·σ. Decision must be argmax(p↓, p0, p↑). Do NOT apply a second neutral band at decision time (see `0-DOCUMENTAÇÃO ANTERIOR/Decisão de Arquitetura — Remoção da “Dupla Zona Neutra” no Pipeline XGBoost.md`).
-	- Data pipeline: Bronze → Silver → Gold. Keep manifests and SHA256 for each written parquet.
-	- Gold creation: validate schema (date, open, high, low, close, adj_close, volume); compute log returns and rolling sigma (window=252); label D+1/D+3/D+5 using provided ks; drop rows missing any label; persist parquet (snappy); compute SHA256 and append manifest.
+- A primeira entrega de cada etapa deve ser sempre em **simulação** (`dry_run=True`).  
+- Persistência só pode ocorrer quando explicitamente autorizado em instrução.  
 
-5. Required outputs & prints (when writing Gold)
+---
 
-	- The cell must print these items (human readable):
-	  * Gold path
-	  * Gold rows | Date range
-	  * NaNs after labeling
-	  * Neutral proportions
-	  * Label params (ks)
-	  * Manifest updated (path)
-	  * Gold sha256
+## 3. Estrutura da Instrução Recebida
 
-6. Coding conventions & constraints
+Toda instrução do Estrategista conterá:  
+1. Cabeçalho LLM↔LLM com Labels = ↓, 0, ↑ e Decisão = argmax(p↓, p0, p↑).  
+2. Objetivo da etapa.  
+3. Requisitos técnicos (entradas, saídas, formatos, thresholds).  
+4. Execução inicial definida como `dry_run=True`.  
+5. Persistência autorizada somente em instruções específicas.  
+6. Checklist obrigatório de entrega.  
 
-	- Always include imports and helper functions in the cell (self-contained).
-	- Do NOT use `if __name__ == "__main__":`, `argparse`, or external execution commands.
-	- No network calls or external I/O unless explicitly requested by the strategist. Unit-checks inside the cell are allowed (schema checks, small asserts).
+O Agente deve obedecer exatamente ao que está escrito, sem expandir nem alterar.  
 
-7. Examples & important paths
+---
 
-	- Silver example: `intermediarios/silver/run_20250917_114743/IBOV_silver.parquet`.
-	- Gold manifest: `intermediarios/gold/manifesto_gold_ibov.csv`.
-	- Notebook examples: `notebooks/01-ibov_pipeline_bronze.ipynb` and `0-DOCUMENTAÇÃO ANTERIOR/notebooks/`.
+## 4. Relatórios Obrigatórios
 
-8. Safety & review
+Cada execução deve exibir, ao final:  
+- Estrutura do resultado (ex.: `info()` ou equivalente).  
+- Amostra inicial (ex.: primeiras linhas ou itens).  
+- Intervalo temporal ou dimensional do resultado.  
+- Contagem total de elementos.  
+- Relatório de completude/qualidade.  
+- Mensagens normativas de erro quando aplicável.  
 
-	- Do not change global project policies (labeling rules, decision argmax) in code submissions; propose changes in chat first.
-	- If uncertain about a parameter (e.g., k values, sigma window), ask for explicit confirmation rather than guessing.
+---
 
-9. When updating this file
+## 5. Mensagens Normativas
 
-	- Preserve the delivery-format rules and the Strategist/Agent role separation. Merge any local additions (e.g., calibration bands) only after confirming with the strategist.
+Os erros devem ser reportados sempre em formato padronizado, por exemplo:  
 
-Refer to `README.md` for architecture, goals and acceptance criteria.
+- `VALIDATION_ERROR: estrutura divergente do esperado.`  
+- `CHECKLIST_FAILURE: item X não atendido.`  
+- `DUPLICATE_ERROR: repetição de resultado detectada.`  
 
-Roles & Protocol: igual ao já combinado (estrategista ↔ agente; agente só entrega código Python de célula Jupyter no chat).
+---
 
-Schema oficial:
+## 6. Escalonamento de Problemas
 
-Bronze/Silver: ['date','open','high','low','close','volume','ticker'] (sem adj_close).
+- Se o mesmo erro ocorrer **duas vezes consecutivas**, o Agente deve parar e formular **dúvidas objetivas** ao Estrategista.  
+- Nunca repetir indefinidamente a mesma tentativa.  
 
-Gold: herda Silver + labels label_d1,label_d3,label_d5 e colunas auxiliares (logret,sigma_rolling) sempre baseadas em close.
+---
 
-Cálculos:
+## 7. Checklist Obrigatório (ao final da execução)
 
-logret_t = log( close_t / close_(t-1) )
-
-σ = std móvel de logret (janela 252).
-
-Labels (k·σ) em D+1/D+3/D+5 sobre close.
-
-Dry run por padrão em toda célula que persista artefatos.
+- Código entregue em bloco único e auto-contido.  
+- `dry_run=True` respeitado na primeira execução.  
+- Estrutura e formatos conforme instrução recebida.  
+- Relatórios obrigatórios exibidos.  
+- Mensagens normativas aplicadas em caso de erro.  
+- Sem improviso ou explicações fora do bloco.  
