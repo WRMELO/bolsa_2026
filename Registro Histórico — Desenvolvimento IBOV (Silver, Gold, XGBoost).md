@@ -1,6 +1,3 @@
-
----
-
 # Registro Histórico — Desenvolvimento IBOV (Silver, Gold, XGBoost)
 
 **Período do chat:** Setembro/2025  
