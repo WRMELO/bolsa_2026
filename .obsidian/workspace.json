@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROTOCOLO PERMANENTE DE RELACIONAMENTO — OWNER ↔ ESTRATEGISTA ↔ AGENTE.md",
+                "file": "docs/planos/Plano Mestre v2 — Estratégia, Fluxo e Governança.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PROTOCOLO PERMANENTE DE RELACIONAMENTO — OWNER ↔ ESTRATEGISTA ↔ AGENTE"
+              "title": "Plano Mestre v2 — Estratégia, Fluxo e Governança"
             }
           }
         ]
@@ -169,19 +169,19 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "025e82fd391dd87a",
+  "active": "d10a8cb5b94256db",
   "lastOpenFiles": [
-    "bronze/IBOV.parquet/year=2025/57f3be5f861c4f51bd40d084a2bd6635-0.parquet",
-    "bronze/IBOV.parquet/year=2024/57f3be5f861c4f51bd40d084a2bd6635-0.parquet",
-    "bronze/IBOV.parquet/year=2023/57f3be5f861c4f51bd40d084a2bd6635-0.parquet",
-    "bronze/IBOV.parquet/year=2022/57f3be5f861c4f51bd40d084a2bd6635-0.parquet",
-    "bronze/IBOV.parquet/year=2021/57f3be5f861c4f51bd40d084a2bd6635-0.parquet",
-    "bronze/IBOV.parquet/year=2020/57f3be5f861c4f51bd40d084a2bd6635-0.parquet",
-    "bronze/IBOV.parquet/year=2019/57f3be5f861c4f51bd40d084a2bd6635-0.parquet",
-    "bronze/IBOV.parquet/year=2018/57f3be5f861c4f51bd40d084a2bd6635-0.parquet",
-    "bronze/IBOV.parquet/year=2017/57f3be5f861c4f51bd40d084a2bd6635-0.parquet",
-    "bronze/IBOV.parquet/year=2016/57f3be5f861c4f51bd40d084a2bd6635-0.parquet",
-    "bronze/IBOV.parquet/year=2015/57f3be5f861c4f51bd40d084a2bd6635-0.parquet",
+    "PROTOCOLO PERMANENTE DE RELACIONAMENTO — OWNER ↔ ESTRATEGISTA ↔ AGENTE.md",
+    "silver/IBOV_silver.parquet/2025/part-0.parquet",
+    "silver/IBOV_silver.parquet/2025",
+    "silver/IBOV_silver.parquet/2023/part-0.parquet",
+    "silver/IBOV_silver.parquet/2023",
+    "silver/IBOV_silver.parquet/2024/part-0.parquet",
+    "silver/IBOV_silver.parquet/2024",
+    "silver/IBOV_silver.parquet/2022/part-0.parquet",
+    "silver/IBOV_silver.parquet/2022",
+    "silver/IBOV_silver.parquet/2019/part-0.parquet",
+    "silver/IBOV_silver.parquet/2019",
     "manifestos/convenções.md",
     "docs/planos/Plano Mestre v2 — Identificação de Tendências com Preservação de Capital.md",
     "docs/protocolos/PROTOCOLO DE GOVERNANÇA E CONTINUIDADE.md",
@@ -192,7 +192,6 @@
     "0-DOCUMENTAÇÃO ANTERIOR/Decisão de Arquitetura — Remoção da “Dupla Zona Neutra” no Pipeline XGBoost.md",
     "0-DOCUMENTAÇÃO ANTERIOR/PROTOCOLO PERMANENTE — RELAÇÃO ESTRATEGISTA ↔ AGENTE.md",
     "docs/protocolos/PROTOCOLO DE INSTRUÇÕES E ENTREGA.md",
-    "PROTOCOLO PERMANENTE DE RELACIONAMENTO — OWNER ↔ ESTRATEGISTA ↔ AGENTE.md",
     "MANUAL DE APLICAÇÃO PRÁTICA — PROTOCOLO PERMANENTE.md",
     "docs/protocolos/PROTOCOLO DE PAPÉIS E RESPONSABILIDADES.md",
     "0-DOCUMENTAÇÃO ANTERIOR/docs1/Create Silver from Bronze (Instrução 02).md",
