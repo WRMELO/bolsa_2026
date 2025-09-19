@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/planos/Plano Mestre v2 — Estratégia, Fluxo e Governança.md",
+                "file": "MANUAL DE APLICAÇÃO PRÁTICA — PROTOCOLO PERMANENTE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plano Mestre v2 — Estratégia, Fluxo e Governança"
+              "title": "MANUAL DE APLICAÇÃO PRÁTICA — PROTOCOLO PERMANENTE"
             }
           }
         ]
@@ -169,8 +169,9 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "d10a8cb5b94256db",
+  "active": "025e82fd391dd87a",
   "lastOpenFiles": [
+    "docs/planos/Plano Mestre v2 — Estratégia, Fluxo e Governança.md",
     "gold/IBOV_gold.parquet",
     "PROTOCOLO PERMANENTE DE RELACIONAMENTO — OWNER ↔ ESTRATEGISTA ↔ AGENTE.md",
     "silver/IBOV_silver.parquet/2025/part-0.parquet",
@@ -182,11 +183,9 @@
     "silver/IBOV_silver.parquet/2022/part-0.parquet",
     "silver/IBOV_silver.parquet/2022",
     "silver/IBOV_silver.parquet/2019/part-0.parquet",
-    "silver/IBOV_silver.parquet/2019",
     "manifestos/convenções.md",
     "docs/planos/Plano Mestre v2 — Identificação de Tendências com Preservação de Capital.md",
     "docs/protocolos/PROTOCOLO DE GOVERNANÇA E CONTINUIDADE.md",
-    "docs/planos/Plano Mestre v2 — Estratégia, Fluxo e Governança.md",
     "0-DOCUMENTAÇÃO ANTERIOR/Plano Mestre – Identificação de Tendências (D+1, D+3, D+5).md",
     "0-DOCUMENTAÇÃO ANTERIOR/docs/ARTIFACTS_FOR_ALLM.md",
     "0-DOCUMENTAÇÃO ANTERIOR/Critica ao momento 17.09.2025.md",
