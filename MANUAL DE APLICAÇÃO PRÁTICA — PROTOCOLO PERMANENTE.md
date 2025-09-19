@@ -1,5 +1,6 @@
 # Manual de Aplicação Prática
-**Owner ↔ Estrategista ↔ Agente**
+
+## Owner ↔ Estrategista ↔ Agente
 
 Este manual mostra como aplicar o protocolo no dia a dia, em forma de checklist operacional.  
 Deve ser usado como guia rápido em todos os projetos.
@@ -47,6 +48,7 @@ Deve ser usado como guia rápido em todos os projetos.
 ## 5. Checkpoint Obrigatório
 
 Ao final de cada etapa, registrar:  
+
 - Objetivo da etapa  
 - Resultado obtido  
 - Falhas encontradas  
